@@ -31,6 +31,9 @@
 /* CONTACT FORM */
 .footer__contact-form {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* DETAILS */
