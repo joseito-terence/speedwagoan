@@ -1,0 +1,57 @@
+.aboutUs {
+  background-color: #001e3a;
+}
+
+
+.aboutUs h1 {
+  font-size: 50px;
+  color: blanchedalmond;
+  padding-top: 60px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.aboutUs .who {
+  color: rgb(255, 255, 255);
+  background-color: rgb(115, 56, 209);
+  padding: 1.5rem;
+}
+
+.aboutUs h2 {
+  font-size: 40px;
+}
+
+.aboutUs h3 {
+  font-size: 40px;
+}
+.aboutUs .para1 {
+  margin: 50px auto;
+  border-radius: 15px;
+  background-color: #093c6b;
+  width: 90%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.12em;
+  padding: 8px 1.25rem;
+  color: rgb(255, 255, 255);
+}
+
+.aboutUs #para2 {
+  margin: 50px auto;
+  font-size: 1.12em;
+  /* width: 90%; */
+  text-align: center;
+}
+
+.aboutUs .contact {
+  color: rgb(218, 211, 211);
+  background-color: rgb(12, 71, 78);
+  padding: 50px 0;
+}
+
+
+.aboutUs .contact div{
+  max-width: 500px;
+  margin: auto;
+  padding: 0 1.25rem;
+}

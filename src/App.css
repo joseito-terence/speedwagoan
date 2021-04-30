@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*:focus{
+  outline: none !important;
+  box-shadow: none !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+:root{  
+  --primary-accent: #0c3763;
+
+  --header-height: 120px;         
+  --body-height: calc(100vh - var(--header-height));
+}
+
+@media (max-width: 576px) {
+  :root{
+    --body-hight: calc(100vh - 168px);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--primary-accent) !important;
+  border-color: var(--primary-accent) !important;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0d3c6ced !important;
+  border-color: #0d3c6ced !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn, .form-control {
+  border-radius: 10px;
+}
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+/* CUSTOM STYLE SHEET FOR THE SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background:silver; 
+  border-radius: 10px;
 }

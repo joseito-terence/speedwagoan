@@ -1,0 +1,77 @@
+.items > .container {
+  margin-bottom: 14px;
+}
+
+/* .items > .container > .row{
+  padding: 2px;
+} */
+
+.items > .container .col {
+  padding: 2px;
+}
+
+.items > .container .row:first-child .col:first-child {
+  min-width: 60% !important;
+}
+
+.items .col > .card {
+  height: calc((100vh - 156px) / 3);
+  overflow: hidden;
+}
+
+.items .card-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.items .card-overlay {
+  position: absolute;
+  bottom: -22px;
+  left: 0;
+  right: 0;
+
+  overflow: hidden;
+  width: 100%;
+  height: 76px;
+  transition: 0.5s ease;
+  padding: 1.25rem;
+  padding-top: 0.95rem;
+
+  background-color: #0c3763e3;
+}
+
+.items .card:hover .card-overlay {
+  height: 100%;
+  padding: 1.25rem;
+  bottom: 0;
+}
+
+.items .rating {
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px){
+  .items .col > .card{
+    height: calc((100vh - 160px) / 4);
+  }
+}
+
+@media (max-width: 568px){
+  .items .col > .card{
+    height: calc((100vh - 208px) / 4);
+  }
+}
+
+
+
+/* Display svg for when not hits */
+.hits__empty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 80vh;
+}
+.hits__empty > svg {
+  width: 50%;
+  max-width: 350px;
+}

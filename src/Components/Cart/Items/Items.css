@@ -1,0 +1,7 @@
+.cartItems__empty{
+  display: flex;
+}
+
+.cartItems__empty > svg{
+  height: 34vh;
+}

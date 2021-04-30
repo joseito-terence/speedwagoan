@@ -1,0 +1,45 @@
+/* PROMO CODE */
+.summary__promoCode{
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px;
+  height: 44px;
+}
+
+.summary__promoCode > input{
+  border: none;
+  margin-left: 5px;
+  font-size: 18px;
+  width: 85%;
+}
+
+.summary__promoCode > input:focus{
+  outline: none;
+}
+
+/* PAYMENT AMOUNT */
+.summary__paymentAmt{
+  display: flex;
+  flex-direction: column; 
+  color: #6c757d;
+  padding: 8px 0;
+  border-bottom: 1px solid #6c757d;
+}
+
+.summary__paymentAmt > div, 
+.summary__orderTotal {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+/* ORDER TOTAL */
+.summary__orderTotal{
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+/* CHECKOUT BUTTON */
+.summary__checkoutBtn{
+  border-radius: 4px !important;
+}

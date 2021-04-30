@@ -1,0 +1,29 @@
+.review__card {
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 14px;
+  margin-bottom: 12px;
+}
+
+.review__message {
+  margin-bottom: 5px;
+}
+
+.review__customerName {
+  font-size: .95rem;
+}
+
+.review__timestamp {
+  font-size: small;
+  color: #373737;
+}
+
+.review__rating {
+  float: right;
+  margin-top: -20px;
+}
+
+#headingreviews ~ div#collapsereviews {
+  max-height: 300px;
+  overflow-y: scroll;
+}

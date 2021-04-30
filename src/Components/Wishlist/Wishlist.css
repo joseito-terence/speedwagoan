@@ -1,0 +1,8 @@
+.wishlist__empty {
+  display: flex;
+  justify-content: center;
+}
+
+.wishlist__empty > svg {
+  width: 80%;
+}

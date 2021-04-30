@@ -1,0 +1,9 @@
+.reviews__write > form input[type=radio] {
+  display: none;
+}
+
+.rating__star {
+  cursor: pointer;
+  transition: color 200ms;
+  font-size: 1.4rem;
+}

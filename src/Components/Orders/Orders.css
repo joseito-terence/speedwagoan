@@ -1,0 +1,14 @@
+.orders {
+  min-height: var(--body-height);
+}
+
+.order__image{
+  height: 100px;
+  width: 100px;
+}
+
+.order__image-img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

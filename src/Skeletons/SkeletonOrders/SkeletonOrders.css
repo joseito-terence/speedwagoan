@@ -1,0 +1,13 @@
+.skeleton.order__date {
+  height: 25px;
+  width: 50%;
+}
+
+.skeleton.image {
+  height: 100px;
+  width: 100px;
+}
+
+.skeleton-wrapper.max-width {
+  max-width: 650px;
+}

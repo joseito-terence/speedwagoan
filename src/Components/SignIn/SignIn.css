@@ -1,0 +1,49 @@
+.signIn{
+  display: grid;
+  place-items: center;
+  color: black;
+} 
+
+.signIn .container{
+  max-width: 720px;
+}
+
+.signIn .col{
+  padding: 0;
+  background-color: #e0e0e0;
+}
+
+
+.signIn__image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.signIn__image ~ button {
+  position: absolute;
+  right: 6px;
+}
+
+.signIn__form{
+  padding: 14px;
+}
+
+
+.mix-blend-mode{
+  mix-blend-mode: multiply;  /* remove white background of the google logo */
+}
+
+#loginModal .modal-header{
+  display: none;
+}
+
+@media screen and (max-width: 484px){
+  .row2{
+    flex-direction: column-reverse;
+  }
+  .signIn__image{
+    height: 30vh;
+  }
+}

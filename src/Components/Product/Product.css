@@ -1,0 +1,137 @@
+/* .product__container {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  gap: 200px;
+  padding: 10px; 
+} */
+
+.product__container a:hover,
+.product__container a:visited,
+.product__container a:link,
+.product__container a:active {
+  text-decoration: none;
+}
+
+.product__images-display {
+  margin: 30px;
+}
+
+.product__images-main {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  height: 45vh;
+}
+
+.product__images-sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product__images-sub-img {
+  object-fit: contain;
+  margin: 50px 15px 0px 15px;
+  border: 1px solid #e0e0e0;
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+  transition: border 0.1s ease;
+}
+.product__images-sub-img:hover {
+  cursor: pointer;
+  border: 2px solid #333333;
+}
+
+.product__summary {
+  text-align: left;
+  /* margin-right: 50px; */
+  padding: 12px;
+  /* min-width: 450px; */
+}
+
+#product__name{
+  font-weight: 700;
+}
+
+.product__credebility {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product__value{
+  font-size: 20px;
+}
+
+.product__ratings {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.product__ratings i {
+  font-size: 1.25rem;
+}
+
+.product__rating-stars {
+  font-size: 18px;
+  margin: 0;
+}
+
+.product__nav {
+  margin: 50px 0;
+}
+
+.product__nav button,
+.product__nav .card-body{
+  color: black !important;
+}
+
+.product__cart {
+  /* background-color: #0b3861;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff; */
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.product__wishlist {
+  font-size: 16px;
+}
+
+@media (max-width: 964px){
+  .product__container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .product__summary{
+    margin: 10px;
+  }
+  .product__images-main{
+    width: 100%;
+    height: 45vh;
+  }
+  .product__images-sub-img {
+    margin: 50px 8px 0px 8px;
+  }
+}
+
+@media (max-width: 476px){
+  .product__container{
+    padding: 0;
+  }
+  .product__images-display{
+    padding: 0px;
+  }
+  .product__images-sub-img {
+    margin: 50px 8px 0px 8px;
+    width: 60px;
+    height: 60px;
+  }
+  .product__summary{
+    min-width: auto;
+  }
+}

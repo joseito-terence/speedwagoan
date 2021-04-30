@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "SpeedWaGoan",
+  "name": "SpeedWaGoan",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,53 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#0c3763",
+  "background_color": "#C2FBFF",
+  "shortcuts": [
+    {
+      "name": "Search",
+      "short_name": "Search",
+      "description": "Search for products",
+      "url": "/products",
+      "icons": [{ "src": "images/shortcut_icons/search.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Wishlist",
+      "short_name": "Wishlist",
+      "description": "View your Wishlist",
+      "url": "/wishlist",
+      "icons": [{ "src": "images/shortcut_icons/wishlist.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Cart",
+      "short_name": "Cart",
+      "description": "View your Cart",
+      "url": "/cart",
+      "icons": [{ "src": "images/shortcut_icons/cart.png", "sizes": "192x192" }]
+    }
+  ],
+
+  "description": "Hybrid Web and Mobile App for Online Store",
+  "screenshots": [
+    {
+      "src": "./images/screenshots/1.png",
+      "type": "image/png",
+      "sizes": "540x1170"
+    },
+    {
+      "src": "./images/screenshots/2.png",
+      "type": "image/jpg",
+      "sizes": "540x1170"
+    },
+    {
+      "src": "./images/screenshots/3.png",
+      "type": "image/jpg",
+      "sizes": "540x1170"
+    },
+    {
+      "src": "./images/screenshots/4.png",
+      "type": "image/jpg",
+      "sizes": "540x1170"
+    }
+  ]
 }
