@@ -36,6 +36,17 @@
   align-items: center;
 }
 
+.footer__installApp > button > svg {
+  fill: white;
+  width: 80px;
+  display: block;
+  margin-top: .2rem;
+}
+
+.footer__installApp > button:hover > svg {
+  fill: black;
+}
+
 /* DETAILS */
 .footer__details > svg {
   display: block;

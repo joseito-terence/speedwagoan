@@ -54,11 +54,22 @@
   .items .col > .card{
     height: calc((100vh - 160px) / 4);
   }
+
+  .items .col > .card > .card-overlay > .card-title {
+    font-size: .98rem;
+    /* font-size: 5rem !important; */
+    margin-top: 0.35rem !important;
+  }
 }
 
 @media (max-width: 568px){
   .items .col > .card{
     height: calc((100vh - 208px) / 4);
+  }
+
+  .items .col > .card > .card-overlay > .card-title {
+    margin-left: -0.95rem;
+    font-size: 0.78rem;
   }
 }
 

@@ -49,24 +49,29 @@
   "description": "Hybrid Web and Mobile App for Online Store",
   "screenshots": [
     {
-      "src": "./images/screenshots/1.png",
-      "type": "image/png",
-      "sizes": "540x1170"
+      "src": "https://firebasestorage.googleapis.com/v0/b/tybca-project.appspot.com/o/assets%2Fscreenshots%2Fimage1.jpeg?alt=media&token=74ca2ade-b952-4147-a8de-b0a6be17dbef",
+      "type": "image/jpg",
+      "sizes": "586x1172"
     },
     {
-      "src": "./images/screenshots/2.png",
+      "src": "https://firebasestorage.googleapis.com/v0/b/tybca-project.appspot.com/o/assets%2Fscreenshots%2Fimage2.jpeg?alt=media&token=ca375ca9-4b57-4bba-b33d-724491bfc2c2",
       "type": "image/jpg",
-      "sizes": "540x1170"
+      "sizes": "586x1172"
     },
     {
-      "src": "./images/screenshots/3.png",
+      "src": "https://firebasestorage.googleapis.com/v0/b/tybca-project.appspot.com/o/assets%2Fscreenshots%2Fimage3.jpeg?alt=media&token=0f6bb5cf-d245-40ce-8ed6-deb75add1345",
       "type": "image/jpg",
-      "sizes": "540x1170"
+      "sizes": "586x1172"
     },
     {
-      "src": "./images/screenshots/4.png",
+      "src": "https://firebasestorage.googleapis.com/v0/b/tybca-project.appspot.com/o/assets%2Fscreenshots%2Fimage4.jpeg?alt=media&token=182cd1e9-9727-49b4-8c58-d8c3abc790e7",
       "type": "image/jpg",
-      "sizes": "540x1170"
+      "sizes": "586x1172"
+    },
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/tybca-project.appspot.com/o/assets%2Fscreenshots%2Fimage5.jpeg?alt=media&token=1b816253-829a-4ce3-9327-2acbe5c0bdca",
+      "type": "image/jpg",
+      "sizes": "586x1172"
     }
   ]
 }

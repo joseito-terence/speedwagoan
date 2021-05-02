@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from '../../Assets/logo001SVG.svg';
+import { ReactComponent as CrossPlatformIcon } from '../../Assets/cross-platform.svg';
 
 function Footer() {
   const [deferredPrompt, setDeferredPrompt] = useState();
@@ -17,8 +18,6 @@ function Footer() {
     if (!deferredPrompt) return;
     deferredPrompt.prompt();
   }
-
-  console.log(isStandalone);
 
   return (
     <>
@@ -56,10 +55,10 @@ function Footer() {
           </a>
 
           {!isStandalone && (
-            <div className='footer__installApp mt-5 d-flex flex-column justify-content-center align-items-center'>
-              <h6>Would you like to install this app?</h6>
+            <div className='footer__installApp mt-4 d-flex flex-column justify-content-center align-items-center'>
+              <h6>Would you like to install our app?</h6>
               <button type='button' onClick={promptInstallApp} className="btn btn-outline-light">
-                Install App
+                <CrossPlatformIcon /> Install App
               </button>
             </div>
           )}
@@ -72,7 +71,7 @@ function Footer() {
         </div>
       </footer>
       <div className="footer__copyright">
-        Copyright &copy; 2021 All Rights Reserved SpeedWaGoan
+        SpeedWaGoan Copyright &copy; 2021 All Rights Reserved
       </div>
     </>
   );
