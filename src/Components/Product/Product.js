@@ -68,7 +68,7 @@ const Product = (props) => {
   
 
   const share = () => {
-    navigator.share({ url: `https:share-speedwagoan.herokuapp.com/product/${productId}` });
+    navigator.share({ url: `https://share-speedwagoan.herokuapp.com/product/${productId}` });
   }
 
   return !loading ? (
