@@ -38,7 +38,7 @@ function WriteAReview({ productId, currentRating = 0 }) {
     <Modal 
       id='ModalWriteAReview' 
       title='Write A Review'
-      className='btn btn-link float-right p-0'
+      className='btn btn-link p-0'
       buttonText='Write a Review'
     >
       <div className="reviews__write p-3">

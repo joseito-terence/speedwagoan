@@ -67,12 +67,17 @@ const Product = (props) => {
   }, [productId]);
   
 
+  const share = () => {
+    navigator.share({ url: `https:share-speedwagoan.herokuapp.com/product/${productId}` });
+  }
+
   return !loading ? (
     <div className='container'>
       <MetaTags
         title={product?.title}
         description={product?.description}
         keywords={product?.tags.join(', ')}
+        image={product.images[0]}
       />
       <div className="row">
         <div className='col product__images-display'>
@@ -100,7 +105,7 @@ const Product = (props) => {
             </p>
             <div className='product__ratings'>
               <p className='product__rating-stars mr-1'>Ratings</p>
-              <span className='text-warning'>
+              <span className='text-warning' style={{ minWidth: '120px' }}>
                 {[...Array(5)].map((x, i) => (
                   <i 
                     key={i}
@@ -114,9 +119,20 @@ const Product = (props) => {
               </span>
             </div>
           </div>
-          {email && 
-            <WriteAReview productId={productId} currentRating={product?.rating} />
-          } 
+          
+        
+          <div className='d-flex flex-column align-items-end' style={{ marginBottom: '-28px' }}>
+            {email && 
+              <WriteAReview productId={productId} currentRating={product?.rating} />
+            } 
+
+            {/* SHARE BUTTON */}
+            {navigator.share &&
+              <button type='button' onClick={share} className="product__shareBtn btn btn-light text-secondary fas fa-share-alt"  data-toggle="tooltip" data-placement="bottom" title="Share"></button>
+            }
+          </div>
+    
+
           <div className='product__nav'>
             <Accordion id='productNav'>
               <Accordion.Item id='description' headerText='DESCRIPTION'>
