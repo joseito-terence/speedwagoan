@@ -27,12 +27,12 @@
 .header__actions {
   display: flex;
   margin: 0 25px;
-  min-width: 138px;
 }
 
 .header__actionsCart {
   font-size: 24px;
   margin-left: 15px;
+  width: max-content;
 }
 
 @media (max-width: 576px) {

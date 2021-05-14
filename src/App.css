@@ -18,7 +18,7 @@
 
 @media (max-width: 576px) {
   :root{
-    --body-hight: calc(100vh - 168px);
+    --body-height: calc(100vh - 168px);
   }
 }
 

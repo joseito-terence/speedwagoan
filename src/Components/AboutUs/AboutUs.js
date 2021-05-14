@@ -22,7 +22,7 @@ function AboutUs() {
                <h2 align="center">Who We Are</h2> 
                   <p id="para2">
                      Our mission is to be the most competitvie company on the market. 
-                     "XYZ" is guided by sheer zeal for profits, leaving no stone unturned to get you the best services and products possible. 
+                     SpeedWaGoan is guided by sheer zeal for profits, leaving no stone unturned to get you the best services and products possible. 
                      We aspire to meet and outmatch any bars set by our competitors, affording you the power of choice in an increasingly monopolistic market.
                   </p>
             </div>

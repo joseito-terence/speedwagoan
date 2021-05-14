@@ -2,3 +2,24 @@
   height: var(--body-height);
   object-fit: cover;
 }
+
+.banner {
+  width: 100vw;
+}
+
+.banner-lg {
+  display: block;
+}
+
+.banner-sm{
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .banner-lg {
+    display: none;
+  }
+  .banner-sm {
+    display: block;
+  }
+}

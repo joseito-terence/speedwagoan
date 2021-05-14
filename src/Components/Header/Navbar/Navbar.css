@@ -25,6 +25,7 @@
   text-decoration: none;
   color: white;
   padding: 12px;
+  width: max-content;
 }
 
 .navbar__items > a:hover,
@@ -32,12 +33,3 @@
 .navbar__item-active {
   background-color: #00274b;
 }
-
-/* @media (max-width: 768px) {
-  .navbar__hamburger{
-    display: inline-block;
-  }
-  .navbar__items{
-    margin-top: -11px;
-  }
-} */

@@ -40,20 +40,6 @@ function Header() {
             <Logo />
           </span>
         </Link>
-        
-        {/* <form className="header__search">
-          <input
-            type="text"
-            className="form-control"
-            placeholder="Search"
-            aria-label="Search"
-            aria-describedby="button-search"
-          />
-     
-          <button type='submit' className="d-none" id="button-search">
-            Search
-          </button>
-        </form> */}
 
         <div className="header__search">
           <Search />

@@ -1,17 +1,18 @@
 # SpeedWaGoan
 
 ## BCA Final Year Project.
+Topic: HYBRID WEB AND MOBILE APP FOR ONLINE STORE
 
-Group Members: - \
-  R/BCA-18-118 - Charlton Dias\
-  R/BCA-18-201 - Aaron C. Fernandes\
-  R/BCA-18-202 - Shaun J. Barreto\
-  R/BCA-18-207 - Angel K. Fernandes\
-  R/BCA-18-208 - Joseito T. Fernandes
+Group Members: - 
+* R/BCA-18-118 - Charlton Dias
+* R/BCA-18-201 - Aaron C. Fernandes
+* R/BCA-18-202 - Shaun J. Barreto
+* R/BCA-18-207 - Angel K. Fernandes
+* R/BCA-18-208 - Joseito T. Fernandes
 
 
 
-## Available Scripts
+## Available Scripts (for Local Execution)
 
 In the project directory, run:
 
