@@ -10,10 +10,10 @@ Please read the [Documentation](/Documentation.pdf) for more details.
 ## Table of Content
 
 1. [Live Demo](#-live-demo)
-2. [Implementation](#-implementation)
-3. [Built With](#-built-with)
-4. [Scripts (for local execution)](#-available-scripts-(for-local-execution))
-5. [Group Members](#-group-members)
+2. [Implementation](#%EF%B8%8F-implementation)
+3. [Built With](#%EF%B8%8F-built-with)
+4. [Scripts (for local execution)](#-available-scripts-for-local-execution)
+5. [Group Members](#%EF%B8%8F-group-members)
 
 ## 🚀 Live Demo
 
